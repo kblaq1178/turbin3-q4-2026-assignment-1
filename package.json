@@ -1,0 +1,39 @@
+{
+  "name": "turbin3-q4-2026-assignment-1",
+  "version": "1.0.0",
+  "description": "Turbin3 Q4 Builders 2026 Assignment 1 — Devnet SPL token scripts",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts",
+    "wallet:create": "tsx src/wallet/create-wallet.ts",
+    "wallet:balance": "tsx src/wallet/balance.ts",
+    "token:create": "tsx src/spl-token/create-token.ts",
+    "token:mint": "tsx src/spl-token/mint-token.ts",
+    "token:transfer": "tsx src/spl-token/transfer-token.ts",
+    "token:verify": "tsx src/spl-token/verify.ts",
+    "nft:validate-metadata": "tsx src/mpl-core/validate-metadata.ts",
+    "nft:create": "tsx src/mpl-core/create-nft.ts",
+    "nft:update": "tsx src/mpl-core/update-nft.ts",
+    "nft:verify": "tsx src/mpl-core/verify-nft.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@metaplex-foundation/mpl-core": "^1.10.0",
+    "@metaplex-foundation/umi": "^1.6.0",
+    "@metaplex-foundation/umi-bundle-defaults": "^1.6.0",
+    "@metaplex-foundation/umi-web3js-adapters": "1.6.0",
+    "@solana/spl-token": "^0.4.15",
+    "@solana/web3.js": "^1.99.0",
+    "dotenv": "^18.0.9"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3"
+  }
+}

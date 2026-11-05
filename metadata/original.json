@@ -1,0 +1,10 @@
+{
+  "name": "Turbin3 Devnet Gull",
+  "description": "A standalone Core learning asset for Turbin3 Q4 Builders 2026. Original metadata. Photograph: Western Gull by Dschwen, unchanged, CC BY 2.5 (https://creativecommons.org/licenses/by/2.5/). Source: https://commons.wikimedia.org/wiki/File:Gull_portrait_ca_usa.jpg",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg",
+  "attributes": [
+    { "trait_type": "Cohort", "value": "Q4 2026" },
+    { "trait_type": "Network", "value": "Devnet" },
+    { "trait_type": "Stage", "value": "Original" }
+  ]
+}

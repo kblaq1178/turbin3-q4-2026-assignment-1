@@ -1,0 +1,15 @@
+node_modules/
+wallets/
+.env
+.env.*
+!.env.example
+.state/
+*.tsbuildinfo
+dist/
+*.log
+# Defense in depth for exported key material outside wallets/.
+*keypair*.json
+*wallet*.json
+id.json
+*.pem
+*.key
